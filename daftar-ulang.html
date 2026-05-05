@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIM Online - Daftar Ulang</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="reenrollment-page">
+  <header class="site-header">
+    <div class="container header-shell">
+      <a class="brand" href="index.html" aria-label="SIM Online">
+        <img class="brand-logo-nav" src="Group 420.png" alt="SIM Online Politeknik Negeri Jember">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html">Beranda</a>
+        <a href="jadwal-kuliah.html">Perkuliahan <span class="caret">&#9662;</span></a>
+        <a href="#">Magang Mahasiswa <span class="caret">&#9662;</span></a>
+        <a href="#">Tugas Akhir/Skripsi <span class="caret">&#9662;</span></a>
+        <a href="#">Kelulusan <span class="caret">&#9662;</span></a>
+        <a href="#">Kemahasiswaan <span class="caret">&#9662;</span></a>
+        <a href="#">Panduan Mahasiswa</a>
+      </nav>
+      <div class="profile-chip">
+        <span class="student-id">E41220852</span>
+        <span class="avatar-mini">
+          <img src="WhatsApp_Image_2026-02-13_at_21.28.39-removebg-preview.png" alt="Foto profil mahasiswa">
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <div class="container">
+      <div class="page-intro">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="#">Perkuliahan</a>
+          <span>/</span>
+          <span>Daftar Ulang</span>
+        </nav>
+        <div class="page-intro-row">
+          <h1>Daftar Ulang</h1>
+          <div class="intro-actions">
+            <a class="outline-button" href="#">Panduan Daftar Ulang</a>
+            <div class="flash-message" id="save-notice" aria-live="polite" hidden>Berhasil disimpan</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reenrollment-layout">
+        <div class="reenrollment-main">
+          <section class="card info-band">
+            <div class="info-band-copy">
+              <div class="calendar-icon"></div>
+              <div class="info-band-text">
+                <p>Tahun dan Semester Daftar Ulang Saat Ini: (2023/2024 Genap)</p>
+                <h2>Jadwal Daftar Ulang:</h2>
+                <strong>01-01-2024 s/d 19-01-2024</strong>
+              </div>
+            </div>
+            <div class="filter-row">
+              <label><span>Tahun</span><select><option>2023/2024</option></select></label>
+              <label><span>Semester</span><select><option>Genap</option></select></label>
+            </div>
+          </section>
+
+          <section class="card status-card">
+            <h2>Status Daftar Ulang Anda</h2>
+            <h3>Tahun Ajaran 2023/2024 Semester Genap</h3>
+            <div class="status-row">
+              <p class="status-ok">&#10003; Anda Sudah Daftar Ulang (Proses Aktivasi)</p>
+              <p class="status-date">Tanggal Anda Daftar Ulang : 2024-01-22 10:22:34</p>
+            </div>
+            <div class="status-panels">
+              <div class="status-box status-box-account">
+                <div class="status-box-head">
+                  <span>Nomor Virtual Account Anda</span>
+                  <button type="button">Salin</button>
+                </div>
+                <strong>1098254187305690</strong>
+              </div>
+              <div class="status-box status-box-bill">
+                <div class="status-box-head">
+                  <span>Tagihan yang harus dibayar</span>
+                </div>
+                <strong>Rp. 2,000,000,00</strong>
+              </div>
+            </div>
+          </section>
+
+          <section class="card form-card">
+            <div class="notice-box">
+              Berdasarkan Surat Direktoral Jenderal Pendidikan Tinggi Nomor 813/E1/TI/2020 terkait pemutakhiran data, seluruh mahasiswa aktif WAJIB update data pribadi khususnya NOMOR PONSEL (No. HP) dan EMAIL. Pastikan nomor ponsel dan email anda aktif.
+            </div>
+            <h3>Data Mahasiswa</h3>
+            <form class="student-form" id="reenrollment-form">
+              <input type="text" placeholder="NIK / No. KTP">
+              <input type="text" placeholder="Alamat Domisili">
+              <input type="text" placeholder="Kelurahan / Desa">
+              <div class="field-search">
+                <input type="text" placeholder="Kode Kecamatan">
+                <button type="button">Cari</button>
+              </div>
+              <input type="text" placeholder="No. HP">
+              <input type="email" placeholder="Email Aktif">
+              <p class="field-help">Isikan email pribadi dan pastikan email tersebut tidak penuh agar dapat menerima balasan, email pribadi digunakan sebagai email recovery akun Student SSO POLIJE anda (JANGAN DIISI email student)</p>
+              <div class="form-actions">
+                <button class="save-button" type="submit">Simpan</button>
+                <a class="print-button" href="#">Cetak Bukti Daftar Ulang</a>
+              </div>
+            </form>
+          </section>
+        </div>
+
+        <aside class="reenrollment-side">
+          <section class="card timeline-card">
+            <h2>Timeline Daftar Ulang</h2>
+            <ol class="timeline-list">
+              <li class="done">
+                <span class="step-mark">&#10003;</span>
+                <div class="step-copy"><strong>Verifikasi Data</strong><small>10 Jan 2024<br>Selesai</small></div>
+              </li>
+              <li class="active">
+                <span class="step-mark">&#9203;</span>
+                <div class="step-copy"><strong>Pembayaran UKT</strong><small>Sedang Diproses<br>Estimasi 2 Hari Kerja</small></div>
+              </li>
+              <li>
+                <span class="step-mark">&#9203;</span>
+                <div class="step-copy"><strong>Validasi Data</strong><small>Menunggu<br>Belum Tersedia</small></div>
+              </li>
+              <li>
+                <span class="step-mark">&#9203;</span>
+                <div class="step-copy"><strong>Selesai Daftar Ulang</strong><small>Menunggu<br>Cetak Bukti Daftar Ulang</small></div>
+              </li>
+            </ol>
+          </section>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <div class="footer-brand">
+        <a class="brand footer-branding" href="index.html">
+          <img class="brand-logo-footer" src="Group 421.png" alt="Logo Politeknik Negeri Jember">
+        </a>
+      </div>
+      <div class="footer-middle">
+        <div class="socials" aria-label="Media sosial">
+          <img class="socials-logo" src="Group 422.png" alt="Media sosial">
+        </div>
+        <p>Copyright SIM Online Politeknik Negeri Jember @ 2020-2026</p>
+        <p>(Versi 2.6 Build 202605030934)</p>
+      </div>
+      <div class="footer-address">
+        <p class="footer-title">Pusat Informasi dan Layanan Terpadu (PINTU)</p>
+        <p>Gedung A3 Lantai 1</p>
+        <p>Telp. +62-331-3333532 / WA. +62-85179590160</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

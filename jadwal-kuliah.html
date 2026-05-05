@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIM Online - Jadwal Kuliah</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="schedule-page">
+  <header class="site-header">
+    <div class="container header-shell">
+      <a class="brand" href="index.html" aria-label="SIM Online">
+        <img class="brand-logo-nav" src="Group 420.png" alt="SIM Online Politeknik Negeri Jember">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html">Beranda</a>
+        <a href="jadwal-kuliah.html">Perkuliahan <span class="caret">&#9662;</span></a>
+        <a href="#">Magang Mahasiswa <span class="caret">&#9662;</span></a>
+        <a href="#">Tugas Akhir/Skripsi <span class="caret">&#9662;</span></a>
+        <a href="#">Kelulusan <span class="caret">&#9662;</span></a>
+        <a href="#">Kemahasiswaan <span class="caret">&#9662;</span></a>
+        <a href="#">Panduan Mahasiswa</a>
+      </nav>
+      <div class="profile-chip">
+        <span class="student-id">E41220852</span>
+        <span class="avatar-mini">
+          <img src="WhatsApp_Image_2026-02-13_at_21.28.39-removebg-preview.png" alt="Foto profil mahasiswa">
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <div class="container">
+      <div class="page-intro">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="#">Perkuliahan</a>
+          <span>/</span>
+          <span>Jadwal Kuliah</span>
+        </nav>
+        <h1>Jadwal Kuliah</h1>
+        <h2>Semester Genap 2025/2026</h2>
+      </div>
+
+      <div class="schedule-toolbar">
+        <label><span>Tahun Ajaran</span><select><option>2025/2026 Genap</option></select></label>
+        <label class="search-field"><span class="sr-only">Cari</span><input type="search" placeholder="Search"></label>
+        <button type="button" class="ghost-button">Reload</button>
+        <button type="button" class="export-button">Export</button>
+      </div>
+
+      <section class="schedule-desktop">
+        <div class="schedule-grid">
+          <div class="grid-corner">Jam</div>
+          <div class="grid-head">Senin</div>
+          <div class="grid-head">Selasa</div>
+          <div class="grid-head">Rabu</div>
+          <div class="grid-head">Kamis</div>
+          <div class="grid-head">Jumat</div>
+
+          <div class="time-label" style="grid-row:2;">07:00</div>
+          <div class="time-label" style="grid-row:3;">08:00</div>
+          <div class="time-label" style="grid-row:4;">09:00</div>
+          <div class="time-label" style="grid-row:5;">10:00</div>
+          <div class="time-label" style="grid-row:6;">11:00</div>
+          <div class="time-label" style="grid-row:7;">12:00</div>
+          <div class="time-label" style="grid-row:8;">13:00</div>
+          <div class="time-label" style="grid-row:9;">14:00</div>
+          <div class="time-label" style="grid-row:10;">15:00</div>
+          <div class="time-label" style="grid-row:11;">16:00</div>
+
+          <article class="lesson lesson-theory" style="grid-column:2; grid-row:3 / span 2;">
+            <h3>Tren Teknologi</h3>
+            <p>08:00 - 09:00 (2jam)</p>
+            <p>Gedung TI - kelas IL4</p>
+            <p>Trismayanti Dwi P, S.Kom, M.Cs</p>
+          </article>
+          <article class="lesson lesson-theory" style="grid-column:2; grid-row:5 / span 2;">
+            <h3>Data Warehouse</h3>
+            <p>10:00 - 11:00 (2jam)</p>
+            <p>Gedung TI - kelas IL4</p>
+            <p>Choirul Huda, S.Kom, M.Kom.</p>
+          </article>
+          <article class="lesson lesson-theory" style="grid-column:2; grid-row:8 / span 2;">
+            <h3>Statistika</h3>
+            <p>13:00 - 14:00 (2jam)</p>
+            <p>Gedung TI - kelas IL4</p>
+            <p>Silvianisa Emka Fitri, S.T., M.T.</p>
+          </article>
+          <article class="lesson lesson-theory" style="grid-column:2; grid-row:10 / span 2;">
+            <h3>Teknik Penulisan Ilmiah</h3>
+            <p>15:00 - 16:00 (2jam)</p>
+            <p>Gedung TI - kelas IL4</p>
+            <p>D.B. Miftal Youna, S.ST., M.T.Kom.</p>
+          </article>
+
+          <article class="lesson lesson-practicum" style="grid-column:3; grid-row:3 / span 4;">
+            <h3>Workshop Proyek Sistem Informasi</h3>
+            <p>07:00 - 10:00 (4jam)</p>
+            <p>Gedung TI - I</p>
+            <p>Workshop KSI</p>
+            <p>Bety Etikasari, S.Pd, M.Pd</p>
+          </article>
+          <article class="lesson lesson-practicum" style="grid-column:3; grid-row:8 / span 4;">
+            <h3>Workshop Tata Kelola Teknologi Informasi</h3>
+            <p>13:00 - 16:00 (4jam)</p>
+            <p>Gedung TI - kelas 3.12</p>
+            <p>D.B Miftal Youna, S.ST., M.T.Kom.</p>
+          </article>
+          <article class="lesson lesson-practicum" style="grid-column:4; grid-row:3 / span 4;">
+            <h3>Workshop Developer Operasi</h3>
+            <p>07:00 - 10:00 (4jam)</p>
+            <p>Gedung TI - kelas 3.11</p>
+            <p>Denny Wiyanarko, S.T, MT</p>
+          </article>
+          <article class="lesson lesson-practicum" style="grid-column:5; grid-row:3 / span 4;">
+            <h3>Workshop Proyek Sistem Informasi</h3>
+            <p>07:00 - 10:00 (4jam)</p>
+            <p>Gedung TI - I</p>
+            <p>Workshop KSI</p>
+            <p>Bety Etikasari, S.Pd, M.Pd</p>
+          </article>
+          <article class="lesson lesson-practicum" style="grid-column:5; grid-row:8 / span 4;">
+            <h3>Workshop Tata Kelola Teknologi Informasi</h3>
+            <p>13:00 - 16:00 (4jam)</p>
+            <p>Gedung TI - kelas 3.12</p>
+            <p>D.B Miftal Youna, S.ST., M.T.Kom.</p>
+          </article>
+          <article class="lesson lesson-practicum" style="grid-column:6; grid-row:8 / span 4;">
+            <h3>Workshop Developer Operasi</h3>
+            <p>13:00 - 16:00 (4jam)</p>
+            <p>Gedung TI - kelas 3.11</p>
+            <p>Denny Wiyanarko, S.T, MT</p>
+          </article>
+        </div>
+        <div class="legend">
+          <span class="legend-pill theory">Teori</span>
+          <span class="legend-pill practicum">Praktikum</span>
+        </div>
+      </section>
+
+      <section class="schedule-mobile">
+        <div class="day-tabs" role="tablist" aria-label="Pilih hari">
+          <button class="day-tab is-active" type="button" data-day="senin">Senin</button>
+          <button class="day-tab" type="button" data-day="selasa">Selasa</button>
+          <button class="day-tab" type="button" data-day="rabu">Rabu</button>
+          <button class="day-tab" type="button" data-day="kamis">Kamis</button>
+          <button class="day-tab" type="button" data-day="jumat">Jumat</button>
+        </div>
+
+        <div class="mobile-day-panel is-active" data-panel="senin">
+          <h3>Senin</h3>
+          <div class="mobile-schedule-grid">
+            <div class="mobile-time" style="grid-row:1;">07.00</div>
+            <div class="mobile-time" style="grid-row:2;">08.00</div>
+            <article class="mobile-lesson lesson-theory" style="grid-row:2 / span 2;">
+              <h4>Tren Teknologi</h4>
+              <p>08:00 - 09:00 (2jam)</p>
+              <p>Gedung TI - kelas IL4</p>
+              <p>Trismayanti Dwi P, S.Kom, M.Cs</p>
+            </article>
+            <div class="mobile-time" style="grid-row:3;">09.00</div>
+            <div class="mobile-time" style="grid-row:4;">10.00</div>
+            <article class="mobile-lesson lesson-theory" style="grid-row:4 / span 2;">
+              <h4>Data Warehouse</h4>
+              <p>10:00 - 11:00 (2jam)</p>
+              <p>Gedung TI - kelas IL4</p>
+              <p>Choirul Huda, S.Kom, M.Kom.</p>
+            </article>
+            <div class="mobile-time" style="grid-row:5;">11.00</div>
+            <div class="mobile-time" style="grid-row:6;">12.00</div>
+            <div class="mobile-time" style="grid-row:7;">13.00</div>
+            <article class="mobile-lesson lesson-theory" style="grid-row:7 / span 2;">
+              <h4>Statistika</h4>
+              <p>13:00 - 14:00 (2jam)</p>
+              <p>Gedung TI - kelas IL4</p>
+              <p>Silvianisa Emka Fitri, S.T., M.T.</p>
+            </article>
+            <div class="mobile-time" style="grid-row:8;">14.00</div>
+            <div class="mobile-time" style="grid-row:9;">15.00</div>
+            <article class="mobile-lesson lesson-theory" style="grid-row:9 / span 2;">
+              <h4>Teknik Penulisan Ilmiah</h4>
+              <p>15:00 - 16:00 (2jam)</p>
+              <p>Gedung TI - kelas IL4</p>
+              <p>D.B. Miftal Youna, S.ST., M.T.Kom.</p>
+            </article>
+            <div class="mobile-time" style="grid-row:10;">16.00</div>
+          </div>
+        </div>
+
+        <div class="mobile-day-panel" data-panel="selasa">
+          <h3>Selasa</h3>
+          <div class="mobile-schedule-grid">
+            <div class="mobile-time" style="grid-row:1;">07.00</div>
+            <article class="mobile-lesson lesson-practicum featured" style="grid-row:1 / span 4;">
+              <h4>Workshop Proyek Sistem Informasi</h4>
+              <p>07:00 - 10:00 (4jam)</p>
+              <p>Gedung TI - I</p>
+              <p>Workshop KSI</p>
+              <p>Bety Etikasari, S.Pd, M.Pd</p>
+            </article>
+            <div class="mobile-time" style="grid-row:2;">08.00</div>
+            <div class="mobile-time" style="grid-row:3;">09.00</div>
+            <div class="mobile-time" style="grid-row:4;">10.00</div>
+            <div class="mobile-time" style="grid-row:5;">11.00</div>
+            <div class="mobile-time" style="grid-row:6;">12.00</div>
+            <div class="mobile-time" style="grid-row:7;">13.00</div>
+            <article class="mobile-lesson lesson-practicum featured" style="grid-row:7 / span 4;">
+              <h4>Workshop Tata Kelola Teknologi Informasi</h4>
+              <p>13:00 - 16:00 (4jam)</p>
+              <p>Gedung TI - kelas 3.12</p>
+              <p>D.B Miftal Youna, S.ST., M.T.Kom.</p>
+            </article>
+            <div class="mobile-time" style="grid-row:8;">14.00</div>
+            <div class="mobile-time" style="grid-row:9;">15.00</div>
+            <div class="mobile-time" style="grid-row:10;">16.00</div>
+          </div>
+        </div>
+
+        <div class="mobile-day-panel" data-panel="rabu">
+          <h3>Rabu</h3>
+          <div class="mobile-schedule-grid">
+            <div class="mobile-time" style="grid-row:1;">07.00</div>
+            <div class="mobile-time" style="grid-row:2;">08.00</div>
+            <article class="mobile-lesson lesson-practicum featured" style="grid-row:1 / span 4;">
+              <h4>Workshop Developer Operasi</h4>
+              <p>07:00 - 10:00 (4jam)</p>
+              <p>Gedung TI - kelas 3.11</p>
+              <p>Denny Wiyanarko, S.T, MT</p>
+            </article>
+            <div class="mobile-time" style="grid-row:3;">09.00</div>
+            <div class="mobile-time" style="grid-row:4;">10.00</div>
+            <div class="mobile-time" style="grid-row:5;">11.00</div>
+            <div class="mobile-time" style="grid-row:6;">12.00</div>
+            <div class="mobile-time" style="grid-row:7;">13.00</div>
+            <div class="mobile-time" style="grid-row:8;">14.00</div>
+            <div class="mobile-time" style="grid-row:9;">15.00</div>
+            <div class="mobile-time" style="grid-row:10;">16.00</div>
+          </div>
+        </div>
+
+        <div class="mobile-day-panel" data-panel="kamis">
+          <h3>Kamis</h3>
+          <div class="mobile-schedule-grid">
+            <div class="mobile-time" style="grid-row:1;">07.00</div>
+            <article class="mobile-lesson lesson-practicum featured" style="grid-row:1 / span 4;">
+              <h4>Workshop Proyek Sistem Informasi</h4>
+              <p>07:00 - 10:00 (4jam)</p>
+              <p>Gedung TI - I</p>
+              <p>Workshop KSI</p>
+              <p>Bety Etikasari, S.Pd, M.Pd</p>
+            </article>
+            <div class="mobile-time" style="grid-row:2;">08.00</div>
+            <div class="mobile-time" style="grid-row:3;">09.00</div>
+            <div class="mobile-time" style="grid-row:4;">10.00</div>
+            <div class="mobile-time" style="grid-row:5;">11.00</div>
+            <div class="mobile-time" style="grid-row:6;">12.00</div>
+            <div class="mobile-time" style="grid-row:7;">13.00</div>
+            <article class="mobile-lesson lesson-practicum featured" style="grid-row:7 / span 4;">
+              <h4>Workshop Tata Kelola Teknologi Informasi</h4>
+              <p>13:00 - 16:00 (4jam)</p>
+              <p>Gedung TI - kelas 3.12</p>
+              <p>D.B Miftal Youna, S.ST., M.T.Kom.</p>
+            </article>
+            <div class="mobile-time" style="grid-row:8;">14.00</div>
+            <div class="mobile-time" style="grid-row:9;">15.00</div>
+            <div class="mobile-time" style="grid-row:10;">16.00</div>
+          </div>
+        </div>
+
+        <div class="mobile-day-panel" data-panel="jumat">
+          <h3>Jumat</h3>
+          <div class="mobile-schedule-grid">
+            <div class="mobile-time" style="grid-row:1;">07.00</div>
+            <div class="mobile-time" style="grid-row:2;">08.00</div>
+            <div class="mobile-time" style="grid-row:3;">09.00</div>
+            <div class="mobile-time" style="grid-row:4;">10.00</div>
+            <div class="mobile-time" style="grid-row:5;">11.00</div>
+            <div class="mobile-time" style="grid-row:6;">12.00</div>
+            <div class="mobile-time" style="grid-row:7;">13.00</div>
+            <article class="mobile-lesson lesson-practicum featured" style="grid-row:7 / span 4;">
+              <h4>Workshop Developer Operasi</h4>
+              <p>13:00 - 16:00 (4jam)</p>
+              <p>Gedung TI - kelas 3.11</p>
+              <p>Denny Wiyanarko, S.T, MT</p>
+            </article>
+            <div class="mobile-time" style="grid-row:8;">14.00</div>
+            <div class="mobile-time" style="grid-row:9;">15.00</div>
+            <div class="mobile-time" style="grid-row:10;">16.00</div>
+          </div>
+        </div>
+
+        <div class="legend">
+          <span class="legend-pill theory">Teori</span>
+          <span class="legend-pill practicum">Praktikum</span>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <div class="footer-brand">
+        <a class="brand footer-branding" href="index.html">
+          <img class="brand-logo-footer" src="Group 421.png" alt="Logo Politeknik Negeri Jember">
+        </a>
+      </div>
+      <div class="footer-middle">
+        <div class="socials" aria-label="Media sosial">
+          <img class="socials-logo" src="Group 422.png" alt="Media sosial">
+        </div>
+        <p>Copyright SIM Online Politeknik Negeri Jember @ 2020-2026</p>
+        <p>(Versi 2.6 Build 202605030934)</p>
+      </div>
+      <div class="footer-address">
+        <p class="footer-title">Pusat Informasi dan Layanan Terpadu (PINTU)</p>
+        <p>Gedung A3 Lantai 1</p>
+        <p>Telp. +62-331-3333532 / WA. +62-85179590160</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
